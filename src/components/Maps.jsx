@@ -1,5 +1,6 @@
 import React from "react";
 import map from "../assets/Plotmap.png";
+import downloadPdf from "../assets/primeinfrarealty_details.pdf";
 
 const Maps = () => {
   return (
@@ -16,9 +17,14 @@ const Maps = () => {
             alt=""
             className=" transition-transform duration-700 transform hover:scale-110 hover:z-10 h-full w-full pb-10 bg-white"
           />
-          <button className="bg-black text-white font-bold py-3 active:bg-gray-800 hover:bg-gray-900 px-10 rounded-full mb-6 sm:mt-12 lg:mt-5">
+          <a
+            type="button"
+            href={downloadPdf}
+            download="primeinfrarealty"
+            className="bg-black text-white font-bold py-3 active:bg-gray-800 hover:bg-gray-900 px-10 rounded-full mb-6 sm:mt-12 lg:mt-5 text-xl"
+          >
             Download
-          </button>
+          </a>
         </div>
       </div>
     </>

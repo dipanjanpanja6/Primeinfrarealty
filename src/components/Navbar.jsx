@@ -42,10 +42,10 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <Home id="home" />
+      <Home id="home" scrollToComponent={scrollToComponent} />
       <About />
       <Vision />
-      <Builder />
+      <Builder id="clickOnStarted" />
       <Maps />
       <ProjectDone />
       <Access id="about" />

@@ -5,7 +5,10 @@ import logo from "../assets/logor1.png";
 const Builder = () => {
   return (
     <>
-      <div className="bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-900 via-slate-900 to-black min-h-[90vh] w-full sm:px-4 overflow-hidden flex justify-center items-center flex-col">
+      <div
+        id="clickOnStarted"
+        className="bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-gray-900 via-slate-900 to-black min-h-[90vh] w-full sm:px-4 overflow-hidden flex justify-center items-center flex-col"
+      >
         <img
           src={logo}
           className="w-40 drop-shadow-2xl brightness-110 mt-4"
