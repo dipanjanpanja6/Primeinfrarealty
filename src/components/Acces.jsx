@@ -14,7 +14,7 @@ const Access = () => {
               <div className="bg-white rounded-full p-2">
                 <img
                   src={profile}
-                  className="prof-image-gradient lg:w-[22rem] lg:h-[22rem] brightness-96   object-center object-none rounded-full"
+                  className="prof-image-gradient w-[20rem] h-[20rem] brightness-96 object-none rounded-full"
                   alt=""
                 />
               </div>
