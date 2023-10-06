@@ -23,7 +23,7 @@ const Home = ({ scrollToComponent }) => {
             />
             <div
               onClick={() => scrollToComponent("clickOnStarted")}
-              className="relative text-white text-4xl px-8 py-2 rounded-sm lg:mt-36 sm:mt-20 mx-auto flex border brightness-125 font-semibold mb-4 cursor-pointer active:bg-white active:opacity-10 "
+              className="relative text-white md:text-4xl sm:text-2xl px-8 py-2 rounded-sm lg:mt-36 sm:mt-20 mx-auto flex border brightness-125 font-semibold mb-4 cursor-pointer active:bg-white active:opacity-10 "
             >
               Get Started
               <div className="absolute top-0 transform translate-x-1/2 -translate-y-1/2 w-6 h-6 border-t-4 border-r-4 border-b-0 border-l-0 right-0 border-[#E3CF41] rotate-[170] "></div>

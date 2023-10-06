@@ -15,7 +15,7 @@ const ProjectDone = () => {
           className="w-40 drop-shadow-2xl brightness-110 mt-4 sm:block lg:hidden"
         />
         <div className="flex justify-center items-center h-full pt-12">
-          <h1 className="text-white text-[poppins] text-4xl font-bold sm:bg-black lg:bg-transparent px-4 py-6 rounded-sm drop-shadow-2xl">
+          <h1 className="text-white text-[poppins] text-4xl font-bold sm:bg-black lg:bg-transparent px-4 py-6 rounded-sm drop-shadow-2xl text-center">
             <span className="text-yellow-600 pr-1">Completed</span> Project
           </h1>
         </div>

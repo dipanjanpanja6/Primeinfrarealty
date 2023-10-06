@@ -25,15 +25,15 @@ const Navbar = () => {
             <img src={logo} alt="" className="w-24 h-16" />
           </div>
           <div>
-            <ul className="flex items-center justify-between flex-wrap text-black gap-6">
+            <ul className="flex items-center justify-between flex-wrap text-black md:gap-6 sm:gap-2">
               <li
-                className="text-xl font-bold cursor-pointer"
+                className="md:text-xl sm:text-lg font-bold cursor-pointer"
                 onClick={() => scrollToComponent("home")}
               >
                 Home
               </li>
               <li
-                className="text-xl font-bold cursor-pointer"
+                className="md:text-xl sm:text-lg font-bold cursor-pointer"
                 onClick={() => scrollToComponent("about")}
               >
                 About
