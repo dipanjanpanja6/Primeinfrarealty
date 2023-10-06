@@ -16,7 +16,7 @@ const About = () => {
             src={bar}
             className="lg:w-96 sm:w-[26rem] lg:h-[40rem] sm:h-[40rem] brightness-105 drop-shadow-2xl sm:ml-24 lg:ml-0 sm:px-8 lg:px-0 sm:mt-28 lg:mt-auto"
           />
-          <div className="text-white justify-center lg:text-4xl sm:text-3xl flex flex-col gap-4 font-bold drop-shadow-2xl sm:absolute lg:static sm:-mt-72 sm:-ml-20  lg:-ml-0 lg:-mt-0 sm:items-start lg:items-end">
+          <div className="text-white justify-center lg:text-4xl sm:text-2xl flex flex-col gap-4 font-bold drop-shadow-2xl sm:absolute lg:static sm:-mt-72 sm:-ml-16  lg:-ml-0 lg:-mt-0 sm:items-start lg:items-end">
             <h1 className="outline outline-2 outline-white px-2 py-2 rounded-md">
               INFRASTRUCTURE
             </h1>

@@ -15,11 +15,11 @@ const ProjectDone = () => {
           className="w-40 drop-shadow-2xl brightness-110 mt-4 sm:block lg:hidden"
         />
         <div className="flex justify-center items-center h-full pt-12">
-          <h1 className="text-white text-[poppins] text-4xl font-bold sm:bg-black lg:bg-transparent px-4 py-6 rounded-sm drop-shadow-2xl">
+          <h1 className="text-white text-[poppins] text-4xl font-bold sm:bg-black lg:bg-transparent px-4 py-6 rounded-sm drop-shadow-2xl text-center">
             <span className="text-yellow-600 pr-1">Completed</span> Project
           </h1>
         </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-8 h-full w-full  rounded-sm drop-shadow-2xl lg:px-32 sm:px-8  py-6 min-h-[70vh] justify-start items-start lg:mt-6">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-8 w-full  rounded-sm drop-shadow-2xl lg:px-32 sm:px-8  py-6 min-h-[70vh] justify-start items-start lg:mt-6">
           <div className="flex flex-col justify-center items-center py-6 rounded-sm drop-shadow-2xl text-white text-2xl font-semibold gap-4 flex-grow overflow-hidden">
             <img
               src={b1}

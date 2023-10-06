@@ -16,10 +16,10 @@ const Builder = () => {
         />
         <div className="flex lg:flex-row sm:flex-col-reverse items-center justify-center py-10 lg:mx-48 sm:mx-4 gap-10 mt-4">
           <div className="w-full h-full flex flex-col justify-center gap-4">
-            <h1 className="text-3xl text-white font-bold tracking-wide font-[avro]">
+            <h1 className="md:text-3xl sm:text-2xl text-white font-bold tracking-wide font-[avro]">
               PRIME BUILDER <br />& DEVELOPERS
             </h1>
-            <h3 className="text-left text-gray-200 lg:text-xl sm:text-lg pr-4">
+            <h3 className="text-left text-gray-200 lg:text-xl sm:text-md pr-4">
               are involved in real estate sector such as residential apartments
               and township, commercial complexes, business centers. The company
               was founded in the year 2015 and since its launch, the company has

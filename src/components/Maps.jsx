@@ -8,7 +8,7 @@ const Maps = () => {
       <div className="min-h-screen w-full flex justify-center items-center px-4  bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-white via-white to-white">
         <div className="relative flex justify-center items-center h-full flex-col lg:gap-3 sm:gap-24">
           <div className="flex flex-col items-center justify-center h-full py-8">
-            <h1 className="text-4xl font-bold font-[poppins] text-black">
+            <h1 className="text-4xl font-bold font-[poppins] text-black text-center">
               <span className="text-yellow-600 pr-1">PLOTS</span> FOR SALE
             </h1>
           </div>
